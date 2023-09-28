@@ -2,7 +2,7 @@
 /**
 * helperfunction - checks if sqrt number exits
 * @num: number
-* @psqrt: possible sqrt of number
+* @sqrt: possible square root of number
 *
 * Return: sqrt of number or -1 for error
 **/
@@ -19,19 +19,20 @@ return (-1);
 else
 return (helperfunction(num, sqrt + 1));
 }
+}
 /**
 * _sqrt_recursion - retrun the natural square root of a number
-* @n: number to fine sqrt of.
+* @num: number to fine sqrt of.
 *
 * Return: square root  of n.
 * -1 if n does not have a natural sqrt
 **/
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int num)
 {
-if (n < 0)
+if (num < 0)
 return (-1);
 else
-return (helperfunction(n, 0));
+return (helperfunction(num, 0));
 }
 
 
