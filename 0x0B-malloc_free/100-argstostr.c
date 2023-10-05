@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* argstostr concatenate all program arguments
+* argstostr - concatenate all program arguments
 * @ac: argument count
 * @av: argument vector
 * Return: a pointer to the array of char
